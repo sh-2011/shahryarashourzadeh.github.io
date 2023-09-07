@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/5/morph/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor04" aria-controls="navbarColor04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor04">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <ol class="breadcrumb" style="margin: 0 6rem;">
+        <li class="breadcrumb-item active">Home</li>
+      </ol>
+      <p class="text-center">
+        من شهریار هستم یک
+        <span class="text"></span>
+      </p>
+    <section class="home box" id="home">
+        <form>
+            <fieldset>
+              
+              <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label mt-4">search in items</label>
+                <input type="search" class="form-control" id="input">
+              </div>
+              
+            </fieldset>
+          </form>
+          <section style="display: flex;flex-direction: column;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;">
+            
+            <div class="card mb-3" style="width: 40%;">
+                <h3 class="card-header" style="text-align: center;">آیتم های اخیر</h3>
+                <!-- <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+                  <rect width="100%" height="100%" fill="#868e96"></rect>
+                  <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+                <div class="card-footer text-muted">
+                  2 days ago
+                </div> -->
+                <ul style="text-align: center;" id="ulch">
+                    <li class="del-item"><span class="span-in">item</span> <span class="del-item" style="cursor: pointer;">delete</span></li>
+                    <li class="del-item"><span class="span-in">item</span> <span class="del-item" style="cursor: pointer;">delete</span></li>
+                    <li class="del-item"><span class="span-in">item</span> <span class="del-item" style="cursor: pointer;">delete</span></li>
+                    <li class="del-item"><span class="span-in">item</span> <span class="del-item" style="cursor: pointer;">delete</span></li>
+                    
+                </ul>
+                    <form id="hide" class="form-check" style="text-align: center;">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"  style="
+                        float: inherit;
+                    ">
+                        <label class="form-check-label" for="flexCheckChecked">hidden</label>
+                  </form>
+                  <form id="add-item-form" class="form-group" style="text-align: center;display: flex;"> 
+                    <input type="text" placeholder="یک آیتم را اضافه کنید..." class="form-control" id="input1">
+                    <button class="btn btn-outline-primary" id="add-item" >اضافه</button>
+                  </form>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+          </section>
+        
+    </section>
+    
+</body>
+<script src="./javascript.js"></script>
+</html>
